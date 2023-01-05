@@ -16,14 +16,9 @@ Cat Anti-aging Project based StyleGAN2
 
 ## Introduction
 ---
-> '우리 고양이의 애기 때 추억을 선물해 드립니다~ !’
+요약 어쩌구...
 
 ### Background of topic
-최근 생물을 돈을 주고 사고 판다는 개념에서 펫샵이 큰 사회적 문제로 대두됨
-이에 따라 유기견 및 유기묘 입양이 증가하는 추세를 보임
-### Project Objectives
-유기묘 입양을 장려함으로써 사회적 문제 해결에 기여함
-유기 동물 임시 보호소, 관련 동아리에 마케팅 목적으로 활용 가능
 
 ## Environment
 ---

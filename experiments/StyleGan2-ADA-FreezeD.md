@@ -15,12 +15,12 @@ Fine-tuning StyleGAN2 ADA with FreezeD
 ## Dataset
 Prepare dataset in TFRecord form  
 | Dataset |
-| :--- | :----------
-| kitten-datasets
-| &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r02.tfrecords
-| &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r03.tfrecords
-| &ensp;&ensp;&boxvr;&nbsp; ...
-| &ensp;&ensp;&boxur;&nbsp; kitten-datasets-r07.tfrecords
+| :--- | :---------- |
+| kitten-datasets |
+| &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r02.tfrecords |
+| &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r03.tfrecords |
+| &ensp;&ensp;&boxvr;&nbsp; ... |
+| &ensp;&ensp;&boxur;&nbsp; kitten-datasets-r07.tfrecords |
 
 ## Pretrained Model
 Prepare pretrained Model  Learned with the ahfq dataset  
@@ -33,14 +33,14 @@ Prepare pretrained Model  Learned with the ahfq dataset
 ## Train
 
 | Training Options |  
-| :--- | :----------  
-| &ensp;&ensp;&boxvr;&nbsp; --freezed=4  
-| &ensp;&ensp;&boxvr;&nbsp; --res=128  
-| &ensp;&ensp;&boxvr;&nbsp; --metrics=none  
-| &ensp;&ensp;&boxur;&nbsp; --cfg='stylegan2'  
-| &ensp;&ensp;&boxvr;&nbsp; --gpus=1  
-| &ensp;&ensp;&boxvr;&nbsp; --kimg=5000  
-| &ensp;&ensp;&boxur;&nbsp; --snap=10  
+| :--- | :----------  |
+| &ensp;&ensp;&boxvr;&nbsp; --freezed=4  |
+| &ensp;&ensp;&boxvr;&nbsp; --res=128  |
+| &ensp;&ensp;&boxvr;&nbsp; --metrics=none  |
+| &ensp;&ensp;&boxur;&nbsp; --cfg='stylegan2' |
+| &ensp;&ensp;&boxvr;&nbsp; --gpus=1  |
+| &ensp;&ensp;&boxvr;&nbsp; --kimg=5000  |
+| &ensp;&ensp;&boxur;&nbsp; --snap=10  |
 
 
 Select discriminator layers to freeze. `--freezed`  

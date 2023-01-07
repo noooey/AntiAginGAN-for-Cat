@@ -7,7 +7,7 @@ Fine-tuning StyleGAN2 ADA with FreezeD
 ```
 
 ## Requirements
-- TensorFlow
+- TensorFlow 1.15
 - CUDA 10.0
 
 [Setting Up  for StyleGAN2](https://github.com/noooey/AntiAginGAN-for-Cat/blob/main/setup/SettingUp_for_StyleGAN2_tf.ipynb)
@@ -17,7 +17,6 @@ Prepare dataset in TFRecord form
 
 | Dataset |
 | ------- |
-| kitten-datasets |
 | &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r02.tfrecords |
 | &ensp;&ensp;&boxvr;&nbsp; kitten-datasets-r03.tfrecords |
 | &ensp;&ensp;&boxvr;&nbsp; ... |
@@ -38,7 +37,7 @@ Prepare pretrained Model  Learned with the ahfq dataset
 | &ensp;&ensp;&boxvr;&nbsp; --freezed=4  |
 | &ensp;&ensp;&boxvr;&nbsp; --res=128  |
 | &ensp;&ensp;&boxvr;&nbsp; --metrics=none  |
-| &ensp;&ensp;&boxur;&nbsp; --cfg='stylegan2' |
+| &ensp;&ensp;&boxvr;&nbsp; --cfg='stylegan2' |
 | &ensp;&ensp;&boxvr;&nbsp; --gpus=1  |
 | &ensp;&ensp;&boxvr;&nbsp; --kimg=5000  |
 | &ensp;&ensp;&boxur;&nbsp; --snap=10  |

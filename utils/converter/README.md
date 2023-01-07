@@ -1,4 +1,4 @@
-# Conver plk model to pt model
+# Convert plk model to pt model
 
 ## Requirements
 - TensorFlow 1.15

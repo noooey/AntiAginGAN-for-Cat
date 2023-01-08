@@ -12,7 +12,7 @@ Using StyleGAN2 ADA
 [Setting Up  for StyleGAN2](https://github.com/noooey/AntiAginGAN-for-Cat/blob/main/setup/SettingUp_for_StyleGAN2_tf.ipynb)
 
 ## Dataset
-Prepare dataset in TFRecords form  
+Prepare custom dataset in TFRecords form  
 
 | Dataset |
 | ------- |

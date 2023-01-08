@@ -1,5 +1,5 @@
 # StyleGAN2 ADA
-Using StyleGAN2 ADA
+Using StyleGAN2 ADA  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
 ```
 메인 이미지
@@ -12,7 +12,7 @@ Using StyleGAN2 ADA
 [Setting Up  for StyleGAN2](https://github.com/noooey/AntiAginGAN-for-Cat/blob/main/setup/SettingUp_for_StyleGAN2_tf.ipynb)
 
 ## Dataset
-Prepare dataset in TFRecord form  
+Prepare dataset in TFRecords form  
 
 | Dataset |
 | ------- |

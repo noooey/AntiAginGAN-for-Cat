@@ -44,6 +44,6 @@ Prepare pretrained Model  Learned with the ahfq dataset
 
 Select discriminator layers to freeze. `--freezed`  
 Due to limited computing resources, `--kimg` should be set as low as 5000.  
-Since there is only one gpu available in the colab environment, set it to `--gpus` == 1.  
+Since there is only one gpu available in the colab environment, set it to `--gpus` = 1.  
 
 ## Result

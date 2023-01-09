@@ -35,7 +35,7 @@ Prepare pretrained Model  Learned with the ahfq dataset
 | ----------  |
 | &ensp;&ensp;&boxvr;&nbsp; --resume=snapshot.pkl  |
 | &ensp;&ensp;&boxvr;&nbsp; --freezed=4  |
-| &ensp;&ensp;&boxvr;&nbsp; --res=512  |
+| &ensp;&ensp;&boxvr;&nbsp; --res=128  |
 | &ensp;&ensp;&boxvr;&nbsp; --metrics='fid50k_full'  |
 | &ensp;&ensp;&boxvr;&nbsp; --metricdata=my_dataset  |
 | &ensp;&ensp;&boxvr;&nbsp; --cfg='stylegan2' |

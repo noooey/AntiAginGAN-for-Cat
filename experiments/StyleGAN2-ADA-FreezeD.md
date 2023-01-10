@@ -55,7 +55,7 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
 - The learning time took about an average of _sec/tick 670_.  
 - `fid50k_full` value is _00_  
 - edit network.py  
-  ```python
+```python
 # Freeze-D.
     cur_layer_idx = 0
     def is_next_layer_trainable():

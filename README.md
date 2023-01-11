@@ -1,44 +1,45 @@
 # AntiAginGAN for Cat
-Cat Anti-aging Project based StyleGAN2
+Cat Anti-aging Project based StyleGAN2  
 ```
 메인 이미지
 ```
 
 ## Introduction
 ```
-summary
-```
+😼 We will make a childhood image of the cat for you who adopted an abandoned cat!
+```  
 ### Background of topic
 설명 ...
 ### Project Objectives
 설명 ...
 
 ## Problem Definition
-- problem 1
-- problem 2
-- problem 3
+Considering the problems below,  
+various experiments were conducted with various models to transform Cat into kitten.  
+- The cat's species must not change.
+- The resulting product should resemble the cat in the input image.
+- The result should look young.
 
 ## Environment
 - OS : Ubuntu 18.04 or Colab
 - GPU : Tesla V100-32GB
 
 ## Data Preparation
-- Web crawling ([Crawler](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/crawler))
-- Resizing images to 256*256
-- Image cleaning ([Cleaner](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/cleaner))
+- Web crawling ([Crawler](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/crawler))  
+- Resizing images to 256*256  
+- Image cleaning ([Cleaner](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/cleaner))  
 
 ## StyleGAN2 ADA
-Training StyleGAN2 ADA tf model with custom dataset
+Training StyleGAN2 ADA tf model with custom dataset   
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA.md)  
 ```
 결과 이미지
 ```
 
 ## StyleGAN2 ADA + FreezeD
-Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset
+Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset  
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA-FreezeD.md)  
 ![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)  
-
 
 ## StyleMixing
 Mixing features  

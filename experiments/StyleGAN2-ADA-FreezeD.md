@@ -46,8 +46,7 @@ Due to limited computing resources, `--kimg` should be set as low as 2000.
 Since there is only one gpu available in the colab environment, set it to `--gpus` = 1.  
 
 ## Result
-### Freezing D [2:]
-- The learning time took about an average of _sec/tick 690_.  
+The learning time took about an average of _sec/tick 690_.  
 
 <table>
   <tr>
@@ -57,3 +56,7 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
      <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif" width="200" height="100"></td>
      </tr>
 </table>
+
+```
+결과물에 대한 설명 및 아쉬운 점
+```

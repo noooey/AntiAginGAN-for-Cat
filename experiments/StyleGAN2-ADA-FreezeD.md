@@ -1,9 +1,8 @@
 # StyleGAN2 ADA + FreezeD
 Fine-tuning StyleGAN2 ADA with FreezeD  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
-```
-메인 이미지
-```
+
+![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)
 
 ## Requirements
 - TensorFlow 1.15
@@ -49,18 +48,25 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
 ## Result of Experiments
 ### Freezing D [2:]
 - The learning time took about an average of _sec/tick 690_.  
-- `fid50k_full` value is _00_  
+
+<table>
+  <tr>
+      <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782316-3f30000d-1396-4e73-b0be-b2bec91a9d83.gif" width="200" height="100"></td>
+     </tr>
+     <tr>
+     <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif" width="200" height="100"></td>
+     </tr>
+</table>
 
 ### Freezing D [:2]
 - The learning time took about an average of _sec/tick 670_.  
-- `fid50k_full` value is _00_  
-- edit network.py  
+- edit networks.py  
 ```python
 # Freeze-D.
     cur_layer_idx = 0
     def is_next_layer_trainable():
         nonlocal cur_layer_idx
-        trainable = (cur_layer_idx >= freeze_layers)
+        trainable = (cur_layer_idx <= freeze_layers)
         cur_layer_idx += 1
         return trainable
 ```

@@ -45,7 +45,7 @@ Select discriminator layers to freeze. `--freezed`
 Due to limited computing resources, `--kimg` should be set as low as 2000.  
 Since there is only one gpu available in the colab environment, set it to `--gpus` = 1.  
 
-## Result of Experiments
+## Result
 ### Freezing D [2:]
 - The learning time took about an average of _sec/tick 690_.  
 
@@ -57,16 +57,3 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
      <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif" width="200" height="100"></td>
      </tr>
 </table>
-
-### Freezing D [:2]
-- The learning time took about an average of _sec/tick 670_.  
-- edit networks.py  
-```python
-# Freeze-D.
-    cur_layer_idx = 0
-    def is_next_layer_trainable():
-        nonlocal cur_layer_idx
-        trainable = (cur_layer_idx <= freeze_layers)
-        cur_layer_idx += 1
-        return trainable
-```

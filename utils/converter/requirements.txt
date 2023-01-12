@@ -1,0 +1,4 @@
+click
+"numpy<1.17"
+torchvision
+requests

@@ -40,11 +40,8 @@ Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom datas
 ![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)  
 
 ## StyleMixing
-Mixing features  
-[Detail]()  
-```
-결과 이미지
-```
+Disentangled features can be identified through the result that changes according to the layer being swapped. 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/66217855/212104286-82cbe6d9-9118-4bc2-b43e-c61dc3b0a113.gif)  
 
 ## GANSpace
 PCA for Latent Space Exploration  

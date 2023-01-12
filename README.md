@@ -31,21 +31,25 @@ various experiments were conducted with various models to transform Cat into kit
 
 ## StyleGAN2 ADA
 Training StyleGAN2 ADA tf model with custom dataset.   
+
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA.md)  
 ![project11](https://user-images.githubusercontent.com/66217855/211796487-e4419e8f-9e46-4baa-bbaa-0362e1666a45.gif)  
 
 ## StyleGAN2 ADA + FreezeD
 Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset.  
+
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA-FreezeD.md)  
 ![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)  
 
 ## StyleMixing
-Disentangled features can be identified through the result that changes according to the layer being swapped. 
+Disentangled features can be identified through the result that changes according to the layer being swapped.
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/66217855/212104286-82cbe6d9-9118-4bc2-b43e-c61dc3b0a113.gif)  
 
 ## GANSpace
 PCA for Latent Space Exploration  
 [Detail]()  
+
 ```
 결과 이미지
 ```
@@ -53,6 +57,7 @@ PCA for Latent Space Exploration
 ## StyleCLIP
 설명 ...  
 [Detail]()  
+
 ```
 결과 이미지
 ```

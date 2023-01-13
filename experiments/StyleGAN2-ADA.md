@@ -40,10 +40,10 @@ The learning time took about an average of _sec/tick 329_.
 
 <table>
   <tr>
-      <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif" width="200" height="100">
+      <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif" width="200" height="100"></td>
      </tr>
      <tr>
-     <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212236128-71287a15-d49e-474b-92ea-7bd85461531c.gif" width="200" height="100">
+     <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212236128-71287a15-d49e-474b-92ea-7bd85461531c.gif" width="200" height="100"></td>
      </tr>
 </table>
 

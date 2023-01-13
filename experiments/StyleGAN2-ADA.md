@@ -1,9 +1,9 @@
 # StyleGAN2 ADA
 Using StyleGAN2 ADA  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
-```
-메인 이미지
-```
+
+![proj_000276 (2)](https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif)
+
 
 ## Requirements
 - TensorFlow 1.15
@@ -27,7 +27,6 @@ Prepare custom dataset in TFRecords form
 | ----------  |
 | &ensp;&ensp;&boxvr;&nbsp; --res=256  |
 | &ensp;&ensp;&boxvr;&nbsp; --metrics=none  |
-| &ensp;&ensp;&boxvr;&nbsp; --cfg='stylegan2' |
 | &ensp;&ensp;&boxvr;&nbsp; --gpus=1  |
 | &ensp;&ensp;&boxvr;&nbsp; --kimg=2000  |
 | &ensp;&ensp;&boxur;&nbsp; --snap=10  |
@@ -41,10 +40,10 @@ The learning time took about an average of _sec/tick 329_.
 
 <table>
   <tr>
-      <td align="center" ><img src="" width="200" height="100"></td>
+      <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif" width="200" height="100"></td>
      </tr>
      <tr>
-     <td align="center" ><img src="" width="200" height="100"></td>
+     <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212236128-71287a15-d49e-474b-92ea-7bd85461531c.gif" width="200" height="100"></td>
      </tr>
 </table>
 

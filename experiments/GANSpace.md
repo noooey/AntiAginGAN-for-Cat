@@ -14,16 +14,14 @@ image
 
 ## Pretrained Model
 Prepare models learned from freezeD experience.  
-Convert this pkl model to pt.  
-
-[Converter](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/converter)  
+Convert this pkl model to pt. ([Converter](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/tree/main/utils/converter))  
 
 ## Config
 Open models/wrappers.py,  
 and edit the stylegan2 configs dict on line 110 to include your model and its corresponding resolution.  
 
 I.E from
-```
+```python
 # Image widths
 configs = {
     'ffhq': 1024,
@@ -33,7 +31,7 @@ configs = {
 }
 ```
 to
-```
+```python
 # Image widths
 configs = {
     'anti-cat': 256,
@@ -45,7 +43,7 @@ configs = {
 ```
 
 Then copy your pytorch model over to your drive account or any other hosting platform, and add the direct download link to the checkpoints dict in the download_checkpoint function on line 136.
-```
+```python
 def download_checkpoint(self, outfile):
     checkpoints = {
         'anti-cat': 'https://drive.google.com/uc?export=download&id=1JxgW_zoVww4hXO0G4PO7e_w3rFtI7jsG',
@@ -61,8 +59,8 @@ def download_checkpoint(self, outfile):
 | Visualize Options |  
 | ----------  |
 | &ensp;&ensp;&boxvr;&nbsp; --model='StyleGAN2'  |
-| &ensp;&ensp;&boxvr;&nbsp; --class  |
-| &ensp;&ensp;&boxvr;&nbsp; --layer  |
+| &ensp;&ensp;&boxvr;&nbsp; --class='anti-cat'  |
+| &ensp;&ensp;&boxvr;&nbsp; --layer='style'  |
 | &ensp;&ensp;&boxvr;&nbsp; --use_w |
 | &ensp;&ensp;&boxvr;&nbsp; --inputs  |
 | &ensp;&ensp;&boxvr;&nbsp; --sigma  |

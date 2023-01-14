@@ -24,36 +24,36 @@ and edit the stylegan2 configs dict on line 110 to include your model and its co
 
 I.E from
 ```
-        # Image widths
-        configs = {
-            'ffhq': 1024,
-            'car': 512,
-            'cat': 256,
-            ...
-        }
+# Image widths
+configs = {
+    'ffhq': 1024,
+    'car': 512,
+    'cat': 256,
+    ...
+}
 ```
 to
 ```
-        # Image widths
-        configs = {
-            'anti-cat': 256,
-            'ffhq': 1024,
-            'car': 512,
-            'cat': 256,
-            ...
-        }
+# Image widths
+configs = {
+    'anti-cat': 256,
+    'ffhq': 1024,
+    'car': 512,
+    'cat': 256,
+    ...
+}
 ```
 
 Then copy your pytorch model over to your drive account or any other hosting platform, and add the direct download link to the checkpoints dict in the download_checkpoint function on line 136.
 ```
-    def download_checkpoint(self, outfile):
-        checkpoints = {
-            'anti-cat': 'https://drive.google.com/uc?export=download&id=1JxgW_zoVww4hXO0G4PO7e_w3rFtI7jsG',
-            'ffhq': 'https://drive.google.com/uc?id=12yYXZymadSIj74Yue1Q7RrlbIqrXggo3',
-            'car': 'https://drive.google.com/uc?export=download&id=1iRoWclWVbDBAy5iXYZrQnKYSbZUqXI6y',
-            'cat': 'https://drive.google.com/uc?export=download&id=15vJP8GDr0FlRYpE8gD7CdeEz2mXrQMgN',
-            ...
-        }
+def download_checkpoint(self, outfile):
+    checkpoints = {
+        'anti-cat': 'https://drive.google.com/uc?export=download&id=1JxgW_zoVww4hXO0G4PO7e_w3rFtI7jsG',
+        'ffhq': 'https://drive.google.com/uc?id=12yYXZymadSIj74Yue1Q7RrlbIqrXggo3',
+        'car': 'https://drive.google.com/uc?export=download&id=1iRoWclWVbDBAy5iXYZrQnKYSbZUqXI6y',
+        'cat': 'https://drive.google.com/uc?export=download&id=15vJP8GDr0FlRYpE8gD7CdeEz2mXrQMgN',
+        ...
+    }
 ```
 
 ## Explore Latent Space

@@ -14,11 +14,12 @@ Cat Anti-aging Project based StyleGAN2
 설명 ...
 
 ## Problem Definition
-Considering the problems below,  
-various experiments were conducted with various models to transform Cat into kitten.  
 - The cat's species must not change.
 - The resulting product should resemble the cat in the input image.
 - The result should look young.
+
+Considering the above problems ,  
+various experiments were conducted with various models to transform Cat into kitten.  
 
 ## Environment
 - OS : Ubuntu 18.04 or Colab
@@ -51,7 +52,7 @@ Disentangled features can be identified through the result that changes accordin
 ## GANSpace
 PCA for Latent Space Exploration  
 
-[Detail]()  
+[Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/GANSpace.md)  
 
 ```
 결과 이미지

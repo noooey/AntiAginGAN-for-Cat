@@ -1,0 +1,7 @@
+fbpca
+boto3
+matplotlib
+ipykernel
+scipy
+scikit-image
+sklearn

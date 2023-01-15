@@ -8,7 +8,7 @@ Fine-tuning StyleGAN2 ADA with FreezeD
 - TensorFlow 1.15
 - CUDA 10.0
 
-[Setting Up  for StyleGAN2](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/setup/SETUP_StyleGAN2-tf.ipynb)
+[Setting Up  for StyleGAN2](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/setup/stylegan2/SETUP_StyleGAN2-tf.ipynb)
 
 ## Dataset
 Prepare custom dataset in TFRecords form  

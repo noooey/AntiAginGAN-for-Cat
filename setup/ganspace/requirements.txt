@@ -5,3 +5,4 @@ ipykernel
 scipy
 scikit-image
 sklearn
+imageio_ffmpeg

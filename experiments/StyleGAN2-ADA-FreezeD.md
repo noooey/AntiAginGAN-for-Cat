@@ -58,5 +58,9 @@ The learning time took about an average of _sec/tick 690_.
 </table>
 
 ```
-결과물에 대한 설명 및 아쉬운 점
+pre-trained 모델에 fine tuning을 진행한 경우가
+처읍부터 학습을 진행한 것 보다 같은 학습 횟수에 대해 더 완성도 있는 이미지를 생성해냈다.
+
+하지만 목표(어른 고양이가 어린 고양이로 변했는가?)에 비해서는 아쉬운 결과를 내었다.
+특히 입 부분에서.
 ```

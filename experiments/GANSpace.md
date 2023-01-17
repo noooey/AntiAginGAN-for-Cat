@@ -1,5 +1,5 @@
 # GANSpace
-PCA for Latent Space Exploration  
+Explore the latent space by checking components that affect a specific part through PCA  
 [Original Code](https://github.com/harskish/ganspace)  
 
 ```
@@ -7,10 +7,7 @@ image
 ```
 
 ## Requirements
-- PyTorch 1.3
-- Python 3.7
-
-[Setting Up  for GANSpace](https://github.com/harskish/ganspace/blob/master/SETUP.md)
+[Setting Up  for GANSpace](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/setup/ganspace/SETUP_GANSpace.md)
 
 ## Pretrained Model
 Prepare models learned from freezeD experience.  
@@ -56,17 +53,13 @@ def download_checkpoint(self, outfile):
 
 ## Explore Latent Space
 
-| Visualize Options |  
+| PCA Options |  
 | ----------  |
 | &ensp;&ensp;&boxvr;&nbsp; --model='StyleGAN2'  |
 | &ensp;&ensp;&boxvr;&nbsp; --class='anti-cat'  |
 | &ensp;&ensp;&boxvr;&nbsp; --layer='style'  |
 | &ensp;&ensp;&boxvr;&nbsp; --use_w |
-| &ensp;&ensp;&boxvr;&nbsp; --inputs  |
-| &ensp;&ensp;&boxvr;&nbsp; --sigma  |
-| &ensp;&ensp;&boxvr;&nbsp; -n  |
-| &ensp;&ensp;&boxvr;&nbsp; -b  |
-| &ensp;&ensp;&boxur;&nbsp; -c  |
+| &ensp;&ensp;&boxvr;&nbsp; --components=32  |
 
 
 ## Result

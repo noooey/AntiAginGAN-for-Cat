@@ -2,7 +2,7 @@
 Using StyleGAN2 ADA  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
 
-![proj_000276 (2)](https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif)
+![276_240](https://user-images.githubusercontent.com/102473690/212833511-99ed675c-dd6c-4336-afa8-80b03a26ec0a.gif)
 
 
 ## Requirements
@@ -40,10 +40,10 @@ The learning time took about an average of _sec/tick 329_.
 
 <table>
   <tr>
-      <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212234393-19a3f74f-7e27-4934-baf4-30ddf4d4471f.gif" width="200" height="100"></td>
+      <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212833511-99ed675c-dd6c-4336-afa8-80b03a26ec0a.gif" width="200" height="100"></td>
      </tr>
      <tr>
-     <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212236128-71287a15-d49e-474b-92ea-7bd85461531c.gif" width="200" height="100"></td>
+     <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212834598-93d5ced1-1bfb-4649-b62e-d16eb1752fbf.gif" width="200" height="100"></td>
      </tr>
 </table>
 

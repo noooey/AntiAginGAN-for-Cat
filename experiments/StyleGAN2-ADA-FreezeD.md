@@ -49,10 +49,10 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
 
 <table>
   <tr>
-      <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782316-3f30000d-1396-4e73-b0be-b2bec91a9d83.gif" width="200" height="100"></td>
+      <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782316-3f30000d-1396-4e73-b0be-b2bec91a9d83.gif" width="400" height="200"></td>
      </tr>
      <tr>
-     <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif" width="200" height="100"></td>
+     <td align="center" ><img src="https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif" width="400" height="200"></td>
      </tr>
 </table>
 

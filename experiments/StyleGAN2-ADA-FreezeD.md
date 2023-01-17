@@ -46,7 +46,6 @@ Due to limited computing resources, `--kimg` should be set as low as 2000.
 Since there is only one gpu available in the colab environment, set it to `--gpus` = 1.  
 
 ## Result
-The learning time took about an average of _sec/tick 690_.  
 
 <table>
   <tr>
@@ -59,8 +58,9 @@ The learning time took about an average of _sec/tick 690_.
 
 ```
 pre-trained 모델에 fine tuning을 진행한 경우가
-처읍부터 학습을 진행한 것 보다 같은 학습 횟수에 대해 더 완성도 있는 이미지를 생성해냈다.
+처음부터 학습을 진행한 것 보다 같은 학습 횟수에 대해 더 완성도 있는 이미지를 생성해냈다.
 
 하지만 목표(어른 고양이가 어린 고양이로 변했는가?)에 비해서는 아쉬운 결과를 내었다.
-특히 입 부분에서.
+
+국소 부위를 조정이 필요
 ```

@@ -13,7 +13,7 @@ Recently, pet shops have emerged as a big social problem in the concept of buyin
 If a cat is adopted from an abandoned cat center, there are no childhood photos of the cat!  
 
 ### Project Objectives
-- Encouraging adoption of abandoned cats
+Encouraging adoption of abandoned cats
 
 ## Problem Definition
 - The cat's species must not change.
@@ -61,8 +61,6 @@ PCA for Latent Space Exploration
 ```
 
 ## Conclusion
-```
-We created a kitten generate model through the Stylegan2-ada model.
-We explored the latent space to find a latent vector that affects a specific feature.
-Using this vector, the projected late vector was further adjusted to generate the desired image.
-```
+We created a kitten generate model through the Stylegan2-ada model.  
+We explored the latent space to find a latent vector that affects a specific feature.  
+Using this vector, the projected late vector was further adjusted to generate the desired image.  

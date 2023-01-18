@@ -9,9 +9,11 @@ Cat Anti-aging Project based StyleGAN2
 😼 We will make a childhood image of the cat for you who adopted an abandoned cat!
 ```  
 ### Background of topic
-설명 ...
+Recently, pet shops have emerged as a big social problem in the concept of buying and selling living things for money.  
+If a cat is adopted from an abandoned cat center, there are no childhood photos of the cat!  
+
 ### Project Objectives
-설명 ...
+- Encouraging adoption of abandoned cats
 
 ## Problem Definition
 - The cat's species must not change.
@@ -35,7 +37,7 @@ Training StyleGAN2 ADA tf model with custom dataset.
 
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA.md)  
 
-![project11](https://user-images.githubusercontent.com/66217855/211796487-e4419e8f-9e46-4baa-bbaa-0362e1666a45.gif)  
+![project11](https://user-images.githubusercontent.com/102473690/212833511-99ed675c-dd6c-4336-afa8-80b03a26ec0a.gif)  
 
 ## StyleGAN2 ADA + FreezeD
 Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset.  
@@ -58,26 +60,9 @@ PCA for Latent Space Exploration
 결과 이미지
 ```
 
-## StyleCLIP
-설명 ...  
-
-[Detail]()  
-
-```
-결과 이미지
-```
-
 ## Conclusion
 ```
-어쩌구...
+We created a kitten generate model through the Stylegan2-ada model.
+We explored the latent space to find a latent vector that affects a specific feature.
+Using this vector, the projected late vector was further adjusted to generate the desired image.
 ```
-
-## Contributors
-<table>
-  <tr>
-      <td align="center"><a href="https://github.com/noooey"><img src="https://avatars.githubusercontent.com/u/66217855?v=4" width="100" height="100"><br /><sub><b>박규연</b></sub></td>
-      <td align="center"><a href="https://github.com/GGrite"><img src="https://avatars.githubusercontent.com/u/102473690?v=4" width="100" height="100"><br /><sub><b>김가영</b></sub></td>
-      <td align="center"><a href="https://github.com/EUNYUGNYU"><img src="https://avatars.githubusercontent.com/u/64732835?v=4" width="100" height="100"><br /><sub><b>서은유</b></sub></td>
-      <td align="center"><a href="https://github.com/Lee-Kiwon"><img src="https://avatars.githubusercontent.com/u/78652810?v=4" width="100" height="100"><br /><sub><b>이기원</b></sub></td>
-     </tr>
-</table>

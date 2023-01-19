@@ -5,10 +5,10 @@ We used GANSpace!
 
 <table>
   <tr>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="100" height="100"></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="100" height="100"></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="100" height="100"></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="100" height="100"></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="180" height="180"><br /><sub><b>eyes</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="180" height="180"><br /><sub><b>ears</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="180" height="180"><br /><sub><b>mouth</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="180" height="180"><br /><sub><b>face features</b></sub></td>
   </tr>
 </table>
 
@@ -66,6 +66,12 @@ def download_checkpoint(self, outfile):
 | &ensp;&ensp;&boxvr;&nbsp; --layer='style'  |
 | &ensp;&ensp;&boxvr;&nbsp; --use_w |
 | &ensp;&ensp;&boxvr;&nbsp; --components=32  |
+
+We extracted 32 principal components and checked the effect of each component.  
+The reason I chose "32" is because...  
+- When less components are extracted, only the local area cannot be controlled.  
+- When more components were extracted, it was difficult to identify meaningful changes.
+
 
 
 ## Result

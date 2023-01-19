@@ -1,8 +1,16 @@
 # PCA
 Explore the latent space by checking components that affect a specific part through PCA  
-[Original Code](https://github.com/harskish/ganspace)  
+We used GANSpace!  
+[Original Code](https://github.com/harskish/ganspace)   
 
-![cat-mouth](https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif)
+<table>
+  <tr>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="100" height="100"><br /><sub><b>eyes</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="100" height="100"><br /><sub><b>ears</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="100" height="100"><br /><sub><b>mouth</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="100" height="100"><br /><sub><b>face features</b></sub></td>
+  </tr>
+</table>
 
 ## Requirements
 [Setting Up  for GANSpace](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/setup/ganspace/SETUP_GANSpace.md)
@@ -69,7 +77,7 @@ def download_checkpoint(self, outfile):
   </tr>
   <tr>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="200" height="200"><br /><sub><b>mouth</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="200" height="200"><br /><sub><b>face features</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="200" height="200"><br /><sub><b>face features</b></sub></td>
   </tr>
 </table>
 

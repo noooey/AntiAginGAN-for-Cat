@@ -65,7 +65,7 @@ def download_checkpoint(self, outfile):
 <table>
   <tr>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="200" height="200"><br /><sub><b>eyes</b></sub></td>
-      <td align="center"><a href="https://github.com/GGrite"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="200" height="200"><br /><sub><b>ears</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="200" height="200"><br /><sub><b>ears</b></sub></td>
   </tr>
   <tr>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="200" height="200"><br /><sub><b>mouth</b></sub></td>

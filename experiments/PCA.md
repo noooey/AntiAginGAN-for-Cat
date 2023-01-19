@@ -5,10 +5,10 @@ We used GANSpace!
 
 <table>
   <tr>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="100" height="100"><br /><sub><b>eyes</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="100" height="100"><br /><sub><b>ears</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="100" height="100"><br /><sub><b>mouth</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="100" height="100"><br /><sub><b>face features</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="100" height="100"></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="100" height="100"></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="100" height="100"></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="100" height="100"></td>
   </tr>
 </table>
 
@@ -83,5 +83,5 @@ def download_checkpoint(self, outfile):
 
 
 ```
-We explored the latent space to find a latent vector that affects a specific feature.  
+We have identified Principal components that affect certain areas of the face!
 ```

@@ -94,6 +94,8 @@ We created a kitten generate model through the Stylegan2-ada model.
 We explored the latent space to find a latent vector that affects a specific feature.  
 Using this vector, the projected late vector was further adjusted to generate the desired image.  
 
+In conclusion, We can create desired images as many as we want by combining and applying the components.  
+
 ## References
 https://github.com/NVlabs/stylegan2-ada  
 https://github.com/harskish/ganspace  

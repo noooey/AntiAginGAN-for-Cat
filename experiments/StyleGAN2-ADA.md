@@ -1,9 +1,9 @@
 # StyleGAN2 ADA
 Using StyleGAN2 ADA  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
-```
-메인 이미지
-```
+
+![276_240](https://user-images.githubusercontent.com/102473690/212834598-93d5ced1-1bfb-4649-b62e-d16eb1752fbf.gif)
+
 
 ## Requirements
 - TensorFlow 1.15
@@ -27,7 +27,6 @@ Prepare custom dataset in TFRecords form
 | ----------  |
 | &ensp;&ensp;&boxvr;&nbsp; --res=256  |
 | &ensp;&ensp;&boxvr;&nbsp; --metrics=none  |
-| &ensp;&ensp;&boxvr;&nbsp; --cfg='stylegan2' |
 | &ensp;&ensp;&boxvr;&nbsp; --gpus=1  |
 | &ensp;&ensp;&boxvr;&nbsp; --kimg=2000  |
 | &ensp;&ensp;&boxur;&nbsp; --snap=10  |
@@ -41,13 +40,19 @@ The learning time took about an average of _sec/tick 329_.
 
 <table>
   <tr>
-      <td align="center" ><img src="" width="200" height="100"></td>
-     </tr>
-     <tr>
-     <td align="center" ><img src="" width="200" height="100"></td>
-     </tr>
+    <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212834598-93d5ced1-1bfb-4649-b62e-d16eb1752fbf.gif" width="400" height="200"></td>
+  </tr>
+  <tr>
+    <td align="center" ><img src="https://user-images.githubusercontent.com/102473690/212833511-99ed675c-dd6c-4336-afa8-80b03a26ec0a.gif" width="400" height="200"></td>
+   </tr>
 </table>
 
 ```
-결과물에 대한 설명 및 아쉬운 점
+As a result of learning from kitten images,
+A generator has been created that can create a kitten in its own way.
+
+However, a low-resolution image was created.
+It took too much learning time and computing resources to generate images of the desired resolution.
+
+So we needed a way to generate high-resolution images more efficiently.
 ```

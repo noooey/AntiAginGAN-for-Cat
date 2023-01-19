@@ -12,7 +12,7 @@ We used **a combination of two components** because we couldn't find one compone
 
 
 ## Components
-We found a meaningful component out of 32 components. (from PCA)[https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/PCA.md]  
+We found a meaningful component out of 32 components. [from PCA](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/PCA.md)  
 We selected and combined the two components below to create a direction for converting cat into a kitten.  
 
 <table>
@@ -26,9 +26,9 @@ We selected and combined the two components below to create a direction for conv
 
 <table>
   <tr>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213456137-46320d43-045d-4201-952f-79c779a81dbf.jpg" width="200" height="200"><br /><sub><b>cat image</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213457118-3b9d70e5-aa27-4f7c-93e3-162df4933346.gif" width="200" height="200"><br /><sub><b>projected image</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213464059-3d016d81-b972-4e50-aaf3-b3c6d5f971fe.gif" width="200" height="200"><br /><sub><b>adjust latent vector</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213456137-46320d43-045d-4201-952f-79c779a81dbf.jpg" width="180" height="180"><br /><sub><b>cat image</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213457118-3b9d70e5-aa27-4f7c-93e3-162df4933346.gif" width="180" height="180"><br /><sub><b>projected image</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213464059-3d016d81-b972-4e50-aaf3-b3c6d5f971fe.gif" width="180" height="180"><br /><sub><b>adjust latent vector</b></sub></td>
   </tr>
 </table>
 

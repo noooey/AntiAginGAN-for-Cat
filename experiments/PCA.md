@@ -5,7 +5,7 @@ We used GANSpace!
 
 <table>
   <tr>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="180" height="180"><br /><sub><b>eyes</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213487974-ce67fb70-deb2-4547-bad5-3f7fab89f6ca.gif" width="180" height="180"><br /><sub><b>eyes</b></sub></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="180" height="180"><br /><sub><b>ears</b></sub></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="180" height="180"><br /><sub><b>mouth</b></sub></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213410488-d95a2a36-cc47-4c76-acb3-9aa71c328f03.gif" width="180" height="180"><br /><sub><b>face features</b></sub></td>
@@ -78,7 +78,7 @@ The reason I chose "32" is because...
 
 <table>
   <tr>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="200" height="200"><br /><sub><b>eyes</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213487974-ce67fb70-deb2-4547-bad5-3f7fab89f6ca.gif" width="200" height="200"><br /><sub><b>eyes</b></sub></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="200" height="200"><br /><sub><b>ears</b></sub></td>
   </tr>
   <tr>

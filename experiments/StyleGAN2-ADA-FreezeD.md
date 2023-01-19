@@ -57,10 +57,10 @@ Since there is only one gpu available in the colab environment, set it to `--gpu
 </table>
 
 ```
-pre-trained 모델에 fine tuning을 진행한 경우가
-처음부터 학습을 진행한 것 보다 같은 학습 횟수에 대해 더 완성도 있는 이미지를 생성해냈다.
+When fine tuning is performed on a pre-trained model,
+It created a more complete image of the same number of classes than it did from the beginning.
 
-하지만 목표(어른 고양이가 어린 고양이로 변했는가?)에 비해서는 아쉬운 결과를 내었다.
+However, compared to the goal (did the adult cat turn into a young cat?) the result was disappointing.
 
-국소 부위를 조정이 필요
+We needed to adjust the local area of the cat's face.
 ```

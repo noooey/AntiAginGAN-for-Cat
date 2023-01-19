@@ -1,10 +1,8 @@
-# GANSpace
+# PCA
 Explore the latent space by checking components that affect a specific part through PCA  
 [Original Code](https://github.com/harskish/ganspace)  
 
-```
-image
-```
+![cat-mouth](https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif)
 
 ## Requirements
 [Setting Up  for GANSpace](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/setup/ganspace/SETUP_GANSpace.md)
@@ -64,7 +62,18 @@ def download_checkpoint(self, outfile):
 
 ## Result
 
+<table>
+  <tr>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="200" height="200"><br /><sub><b>eyes</b></sub></td>
+      <td align="center"><a href="https://github.com/GGrite"><img src="https://user-images.githubusercontent.com/66217855/213407569-9e2913b9-d0de-43e2-9829-34f5c46f7a22.gif" width="200" height="200"><br /><sub><b>ears</b></sub></td>
+  </tr>
+  <tr>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407592-f1af0bb0-1048-4111-86c9-1c5e272953f2.gif" width="200" height="200"><br /><sub><b>mouth</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213407552-94a01405-be0e-45e0-ab55-c00a06e27a94.gif" width="200" height="200"><br /><sub><b>face features</b></sub></td>
+  </tr>
+</table>
+
 
 ```
-결과물에 대한 설명 및 아쉬운 점
+We explored the latent space to find a latent vector that affects a specific feature.  
 ```

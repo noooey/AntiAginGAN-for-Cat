@@ -74,7 +74,7 @@ Partially adjust latent vector of Images projected into the latent space, with c
   <tr>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213456137-46320d43-045d-4201-952f-79c779a81dbf.jpg" width="180" height="180"><br /><sub><b>cat image</b></sub></td>
       <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213457118-3b9d70e5-aa27-4f7c-93e3-162df4933346.gif" width="180" height="180"><br /><sub><b>projected image</b></sub></td>
-      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213441872-cddbd1f6-4b2d-4efa-b02e-f292878f6196.gif" width="180" height="180"><br /><sub><b>adjust latent vector</b></sub></td>
+      <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213464059-3d016d81-b972-4e50-aaf3-b3c6d5f971fe.gif" width="180" height="180"><br /><sub><b>adjust latent vector</b></sub></td>
   </tr>
 </table>
 

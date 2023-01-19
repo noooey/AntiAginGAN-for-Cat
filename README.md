@@ -68,11 +68,9 @@ PCA for Latent Space Exploration
 ## Apply to real image
 Partially adjust latent vector of Images projected into the latent space, with components found through PCA.  
 
-[Detail]()
+[Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/ApplytoRealImage.md)
 
-```
-적용 이미지 추가, 위에 detail에 링크 추가
-```
+![result1111](https://user-images.githubusercontent.com/66217855/213441872-cddbd1f6-4b2d-4efa-b02e-f292878f6196.gif)
 
 ## StyleCLIP
 ```
@@ -91,6 +89,8 @@ We explored the latent space to find a latent vector that affects a specific fea
 Using this vector, the projected late vector was further adjusted to generate the desired image.  
 
 ## References
-https://github.com/NVlabs/stylegan2-ada
-https://github.com/harskish/ganspace
-https://github.com/orpatashnik/StyleCLIP
+https://github.com/NVlabs/stylegan2-ada  
+https://github.com/harskish/ganspace  
+https://github.com/orpatashnik/StyleCLIP   
+
+---

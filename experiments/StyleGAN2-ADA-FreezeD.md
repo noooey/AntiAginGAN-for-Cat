@@ -2,7 +2,7 @@
 Fine-tuning StyleGAN2 ADA with FreezeD  
 [Original Code](https://github.com/NVlabs/stylegan2-ada)  
 
-![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)
+![project3](https://user-images.githubusercontent.com/66217855/211782316-3f30000d-1396-4e73-b0be-b2bec91a9d83.gif)
 
 ## Requirements
 - TensorFlow 1.15

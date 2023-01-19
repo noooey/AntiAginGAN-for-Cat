@@ -12,8 +12,8 @@ We used **a combination of two components** because we couldn't find one compone
 
 
 ## Components
-
-The two components below were combined to create a direction that can convert a cat into a kitten.  
+We found a meaningful component out of 32 components. (from PCA)[https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/PCA.md]  
+We selected and combined the two components below to create a direction for converting cat into a kitten.  
 
 <table>
   <tr>

@@ -37,14 +37,14 @@ Training StyleGAN2 ADA tf model with custom dataset.
 
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA.md)  
 
-![project11](https://user-images.githubusercontent.com/102473690/212833511-99ed675c-dd6c-4336-afa8-80b03a26ec0a.gif)  
+![project11](https://user-images.githubusercontent.com/102473690/212834598-93d5ced1-1bfb-4649-b62e-d16eb1752fbf.gif)  
 
 ## StyleGAN2 ADA + FreezeD
 Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset.  
 
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA-FreezeD.md)  
 
-![project3](https://user-images.githubusercontent.com/66217855/211782101-54235c62-8f94-42ef-a872-6c1c5d1e1f6e.gif)  
+![project3](https://user-images.githubusercontent.com/66217855/211782316-3f30000d-1396-4e73-b0be-b2bec91a9d83.gif)  
 
 ## StyleMixing
 Disentangled features can be identified through the result that changes according to the layer being swapped.
@@ -54,7 +54,7 @@ Disentangled features can be identified through the result that changes accordin
 ## PCA
 PCA for Latent Space Exploration  
 
-[Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/GANSpace.md)  
+[Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/PCA.md)  
 
 <table>
   <tr>
@@ -65,7 +65,32 @@ PCA for Latent Space Exploration
   </tr>
 </table>
 
+## Apply to real image
+Partially adjust latent vector of Images projected into the latent space, with components found through PCA.  
+
+[Detail]()
+
+```
+적용 이미지 추가, 위에 detail에 링크 추가
+```
+
+## StyleCLIP
+```
+한 줄 설명, 아래 detail에 링크 추가하기
+```
+
+[Detail]()
+
+```
+스타일클립 이미지 추가
+```
+
 ## Conclusion
 We created a kitten generate model through the Stylegan2-ada model.  
 We explored the latent space to find a latent vector that affects a specific feature.  
 Using this vector, the projected late vector was further adjusted to generate the desired image.  
+
+## References
+https://github.com/NVlabs/stylegan2-ada
+https://github.com/harskish/ganspace
+https://github.com/orpatashnik/StyleCLIP

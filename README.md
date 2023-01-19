@@ -10,7 +10,9 @@ Cat Anti-aging Project based StyleGAN2
 ```  
 ### Background of topic
 Recently, pet shops have emerged as a big social problem in the concept of buying and selling living things for money.  
-If a cat is adopted from an abandoned cat center, there are no childhood photos of the cat!  
+We want to prevent this phenomenon and encourage adoption of abandoned cats.  
+If a cat is adopted from an abandoned cat center, there are no childhood photos of the cat, u_u  
+I think we can make that memory for them!  
 
 ### Project Objectives
 Encouraging adoption of abandoned cats
@@ -40,7 +42,7 @@ Training StyleGAN2 ADA tf model with custom dataset.
 ![project11](https://user-images.githubusercontent.com/102473690/212834598-93d5ced1-1bfb-4649-b62e-d16eb1752fbf.gif)  
 
 ## StyleGAN2 ADA + FreezeD
-Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat as custom dataset.  
+Fine-tuning the StyleGAN2-ADA tf model pre-trained with afhq cat using custom dataset.
 
 [Detail](https://github.com/BOAZ-bigdata/17th_Conference_AntiAginGAN-for-Cat/blob/main/experiments/StyleGAN2-ADA-FreezeD.md)  
 

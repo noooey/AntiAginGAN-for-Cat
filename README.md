@@ -3,6 +3,7 @@ Cat Anti-aging Project based StyleGAN2
 ```
 메인 이미지
 ```
+@BOAZ-bigdata 17th BigData Conference
 
 ## Introduction
 ```
@@ -23,7 +24,7 @@ Encouraging adoption of abandoned cats
 - The result should look young.
 
 Considering the above problems ,  
-various experiments were conducted with various models to transform Cat into kitten.  
+various experiments were conducted to transform cat into kitten.  
 
 ## Environment
 - OS : Ubuntu 18.04 or Colab
@@ -96,7 +97,7 @@ We created a kitten generate model through the Stylegan2-ada model.
 We explored the latent space to find a latent vector that affects a specific feature.  
 Using this vector, the projected late vector was further adjusted to generate the desired image.  
 
-In conclusion, We can create desired images as many as we want by combining and applying the components.  
+In conclusion, We can create desired images by combining and applying the components.  
 
 ## References
 https://github.com/NVlabs/stylegan2-ada  

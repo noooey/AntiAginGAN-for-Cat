@@ -3,7 +3,7 @@ Cat Anti-aging Project based StyleGAN2
 ```
 메인 이미지
 ```
-@BOAZ-bigdata 17th BigData Conference
+[@BOAZ-bigdata](https://github.com/BOAZ-bigdata) 17th BigData Conference
 
 ## Introduction
 ```
@@ -81,7 +81,8 @@ Partially adjust latent vector of Images projected into the latent space, with c
   </tr>
 </table>
 
-## StyleCLIP
+## Additional Experiments
+### StyleCLIP
 ```
 한 줄 설명, 아래 detail에 링크 추가하기
 ```

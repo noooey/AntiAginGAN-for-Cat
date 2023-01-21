@@ -68,10 +68,6 @@ def download_checkpoint(self, outfile):
 | &ensp;&ensp;&boxvr;&nbsp; --components=32  |
 
 We extracted 32 principal components and checked the effect of each component.  
-The reason I chose "32" is because...  
-- When less components are extracted, only the local area cannot be controlled.  
-- When more components were extracted, it was difficult to identify meaningful changes.
-
 
 
 ## Result

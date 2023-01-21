@@ -1,4 +1,5 @@
-<h1 align="center">🐱 Anti-AginGAN for CAT 🐱</h1>
+<h1 align="center">Anti-AginGAN for CAT</h1>
+<h6 align="center">🐱</h6>
 <h3 align="center">Cat Anti-aging Project based StyleGAN2</h3>
 
 ![image](https://user-images.githubusercontent.com/66217855/213877139-57529be7-6940-4e6d-9d15-dd85e183e278.png)

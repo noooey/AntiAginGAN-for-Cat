@@ -1,7 +1,7 @@
 <h1 align="center">Anti-AginGAN for CAT</h1>
 <h3 align="center">Cat Anti-aging Project based StyleGAN2</h3>
 
-![image](https://user-images.githubusercontent.com/66217855/213874403-182b3aaf-cb1e-4336-a581-41a7df1d0867.png)
+![image](https://user-images.githubusercontent.com/66217855/213876876-bcda3cd3-b3e5-4134-9c92-ae6214aa5869.png)
 
 ## Introduction
 ```
@@ -83,9 +83,9 @@ Partially adjust latent vector of Images projected into the latent space, with c
 ## Conclusion
 We created a kitten generate model through the Stylegan2-ada model.  
 We explored the latent space to find a latent vector that affects a specific feature.  
-Using this vector, the projected late vector was further adjusted to generate the desired image.  
+Using this vector, the projected latent vector was further adjusted to generate the desired images.  
 
-In conclusion, We can create desired images by combining and applying the components.  
+In conclusion, We can convert cat into a kitten by combining and applying the components.  
 
 ## References
 https://github.com/NVlabs/stylegan2-ada  

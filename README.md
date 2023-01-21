@@ -1,17 +1,7 @@
 <h1 align="center">Anti-AginGAN for CAT</h1>
 <h3 align="center">Cat Anti-aging Project based StyleGAN2</h3>
 
-<a href="https://github.com/BOAZ-bigdata" align="text">@BOAZ-bigdata</a><p align="text">17th Big Data Conference</p>
-
 ![image](https://user-images.githubusercontent.com/66217855/213874403-182b3aaf-cb1e-4336-a581-41a7df1d0867.png)
-
-<table align="center">
-  <tr>
-      <img src="https://user-images.githubusercontent.com/66217855/213456137-46320d43-045d-4201-952f-79c779a81dbf.jpg" width="100" height="100">
-      <img src="https://user-images.githubusercontent.com/66217855/213457118-3b9d70e5-aa27-4f7c-93e3-162df4933346.gif" width="100" height="100">
-      <img src="https://user-images.githubusercontent.com/66217855/213464059-3d016d81-b972-4e50-aaf3-b3c6d5f971fe.gif" width="100" height="100">
-  </tr>
-</table>
 
 ## Introduction
 ```
@@ -103,3 +93,5 @@ https://github.com/harskish/ganspace
 https://github.com/orpatashnik/StyleCLIP   
 
 ---
+
+[@BOAZ-bigdata](https://github.com/BOAZ-bigdata) 17th Big Data Conference

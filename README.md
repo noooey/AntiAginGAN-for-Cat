@@ -1,8 +1,22 @@
 # AntiAginGAN for Cat
 Cat Anti-aging Project based StyleGAN2  
-```
-메인 이미지
-```
+![image](https://user-images.githubusercontent.com/66217855/213874403-182b3aaf-cb1e-4336-a581-41a7df1d0867.png)
+<table>
+  <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213874403-182b3aaf-cb1e-4336-a581-41a7df1d0867.png" width="400" height="180">
+  </td>
+  <td>
+    <tr>
+        <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213456137-46320d43-045d-4201-952f-79c779a81dbf.jpg" width="60" height="60"><br /><sub><b>cat image</b></sub></td>
+    <tr>
+    </tr>
+        <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213457118-3b9d70e5-aa27-4f7c-93e3-162df4933346.gif" width="60" height="60"></td>
+    <tr>
+    </tr>
+        <td align="center"><img src="https://user-images.githubusercontent.com/66217855/213464059-3d016d81-b972-4e50-aaf3-b3c6d5f971fe.gif" width="60" height="60"></td>
+    </tr>
+  </td>
+</table>
+
 [@BOAZ-bigdata](https://github.com/BOAZ-bigdata) 17th BigData Conference
 
 ## Introduction
@@ -81,17 +95,6 @@ Partially adjust latent vector of Images projected into the latent space, with c
   </tr>
 </table>
 
-## Additional Experiments
-### StyleCLIP
-```
-한 줄 설명, 아래 detail에 링크 추가하기
-```
-
-[Detail]()
-
-```
-스타일클립 이미지 추가
-```
 
 ## Conclusion
 We created a kitten generate model through the Stylegan2-ada model.  

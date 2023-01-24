@@ -4,8 +4,7 @@
 
 <div align="center">
 
-<!-- ![도식고화질2](https://user-images.githubusercontent.com/66217855/214388267-13037aec-666b-4627-8990-fc2df5d15ef2.gif) -->
-![process](https://user-images.githubusercontent.com/66217855/214396239-c539a3ca-d976-4909-b3fc-3a8c3ca8b2d7.gif)
+![process](https://user-images.githubusercontent.com/66217855/214399477-ecd4cf21-82f7-497f-94df-362e0e5bd280.gif)
 
 </div>
 

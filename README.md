@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![도식](https://user-images.githubusercontent.com/66217855/214373855-1cf398d5-3168-46db-bb5e-1b6c534d58ce.gif)
+![도식고화질](https://user-images.githubusercontent.com/66217855/214387687-a8015e72-10cd-4a55-8f58-5c1af70f9ce2.gif)
 
 </div>
 

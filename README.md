@@ -2,7 +2,11 @@
 <h4 align="center">🐱</h4>
 <h3 align="center">Cat Anti-aging Project based StyleGAN2</h3>
 
-![도식](https://user-images.githubusercontent.com/66217855/214371664-b6ca0f6e-710f-48c4-8a80-b878b9e01d5a.gif)
+<div align="center">
+
+![도식](https://user-images.githubusercontent.com/66217855/214373855-1cf398d5-3168-46db-bb5e-1b6c534d58ce.gif)
+
+</div>
 
 ## Introduction
 ```
